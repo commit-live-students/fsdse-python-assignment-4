@@ -2,9 +2,6 @@ import csv
 import re
 import numpy as np
 def calculateAvgHwy(pth):
-    f = open(pth,'r')
-    veh_type = set()
-    avg = 0.0
     dic = {}
     veh = np.genfromtxt(pth,delimiter=',',skip_header=1,dtype='|S20')
     s = set(veh[:,11])
@@ -20,8 +17,8 @@ def calculateAvgHwy(pth):
         #print(e,cnt,(av_sum/cnt))
         dic.update({e.replace('"',''):(av_sum/cnt)})
 
-    print dic
-    print dic['minivan']
+    #print dic
+    #print dic['minivan']
     return dic
     #print veh
 
