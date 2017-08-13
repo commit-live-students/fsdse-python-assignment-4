@@ -1,0 +1,1 @@
+{"stats": {"passes": 1, "skipped": 0, "encoding": "UTF-8", "errors": 0, "failures": 0, "total": 1}, "results": [{"classname": "tests.test_calculateAvgHwy:TestCalculateAvgHwy", "type": "success", "name": "test_calculateAvgHwy", "time": 0.012266874313354492}]}
